@@ -27,6 +27,12 @@ th {
     justify-content: space-between;
   }
 
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
 .list-item {
     text-align: left;
     color: darkgreen;
