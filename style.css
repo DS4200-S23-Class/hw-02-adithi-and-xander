@@ -38,6 +38,13 @@ th {
     color: darkgreen;
 }
 
+#decoration {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 circle {
     opacity: 50%;
     fill: darkolivegreen;
