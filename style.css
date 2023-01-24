@@ -45,9 +45,7 @@ circle {
 }
 
 rect {
-    stroke: blue;
     fill: blueviolet;
-    stroke-width: 8px;
 }
   
 circle:hover {
