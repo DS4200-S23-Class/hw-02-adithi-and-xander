@@ -1,4 +1,4 @@
-#body {
+body {
     font-family: Arial;
 }
 
@@ -12,17 +12,20 @@ h2 {
 
 table {
     width: 300px;
+    border: 2px;
+    border-color: darkgray;
 }
 
 th {
-    background-color: light;
+    background-color: lightblue;
     border: 1px;
     border-color: darkgray;
 }
 
-.item {
-    order: 2;
-}
+.flex {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .list-item {
     text-align: left;
@@ -34,17 +37,22 @@ th {
     height: 100;
 }
 
-#circle .circle-style {
+.circle-style {
     opacity: 50%;
     fill: darkolivegreen;
 }
 
-#rect .rect-style {
-    fill:rgb(0,0,255);
+.circle-style:hover {
+    opacity: 100%;
+    fill: black;
+}
+
+.rect-style {
+    fill:blue;
     border: 1px;
     border-color: blueviolet;
 }
 
-#svg :hover {
-    fill: black;
-}
+.rect-style:hover {
+    background-color: black;
+  }
