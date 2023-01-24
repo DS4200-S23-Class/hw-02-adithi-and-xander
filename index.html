@@ -3,11 +3,13 @@
 
 <head>
     <meta charset=utf-8/>
+    <!--link to the style file-->
     <link rel="stylesheet" href="style.css"/>
     <title>hw-02</title>
 </head>
 
 <body>
+    <!--create a section on the page for data abstraction for the 3 data sets-->
     <div id="data-abstraction">
         <div class="info">
             <h1>Dataset Types</h1>
@@ -19,23 +21,28 @@
             </tr>
             <tr>
                 <td>Airports</td>
+                <!--link the airports data set-->
                 <td><a href="data/Airports.csv">Link</a></td>
                 <td>Table</td>
             </tr>
             <tr>
                 <td>Google</td>
+                <!--link the google data set-->
                 <td><a href="data/Google-Web.txt">Link</a></td>
                 <td>Network</td>
             </tr>
                 <tr>
                 <td>UFO</td>
+                <!--link the ufo data set-->
                 <td><a href="data/UFO.csv">Link</a></td>
                 <td>Table</td>
             </tr>
             </table>
         </div>
+        <!--create a section on the page for the data types of the 3 data sets-->
         <div class ="info">
             <h1>Data Types</h1>
+            <!--information about the airports data set-->
             <h2>Aiports</h2>
             <ul>
                 <li>Row: Item</li>
@@ -49,6 +56,7 @@
                     <li>Latitude: Position</li>
                 </ul>
             </ul>
+            <!--information about the google data set-->
             <h2>Google</h2>
             <ul>
                 <li>Row: Item</li>
@@ -58,6 +66,7 @@
                     <li>ToNodeId: Link</li>
                 </ul>
             </ul>
+            <!--information abotu the ufo data set-->
             <h2>UFO</h2>
             <ul>
                 <li>Row: Item</li>
@@ -92,33 +101,37 @@
         </div>
         <div id="task-abstraction">
             <h1>Task Abstraction</h1>
+            <!--create the flex box-->
             <div class="flex">
                 <div class="col">
+                    <!--add the first image from the img folder-->
                     <img src="img/vis1.png">
                     <br>
                     <ol>
                         <li class="list-item">High: Consume</li>
-                        <ul><li>Reason: ----- </li></ul>
-                        <li class="list-item">Medium: Locate</li>
-                        <ul><li>Reason: ----- </li></ul>
+                        <ul><li>Reason: because the visual is mainly presenting the data </li></ul>
+                        <li class="list-item">Medium: Lookup</li>
+                        <ul><li>Reason: because the target and location are known </li></ul>
                         <li class="list-item">Low: Identify</li>
-                        <ul><li>Reason: ----- </li></ul>
+                        <ul><li>Reason: because there is one target</li></ul>
                     </ol>
                 </div>
                 <div class="col">
+                    <!--add the second image from the img folder-->
                     <img src="img/vis2.png">
                     <br>
                     <ol>
                         <li class="list-item">High: Consume</li>
-                        <ul><li>Reason: ----- </li></ul>
-                        <li class="list-item">Medium: Explore</li>
-                        <ul><li>Reason: ----- </li></ul>
+                        <ul><li>Reason: because the purpose of the visual is to present data from two cities</li></ul>
+                        <li class="list-item">Medium: Browse</li>
+                        <ul><li>Reason: because the location is known but the target is not</li></ul>
                         <li class="list-item">Low: Compare</li>
-                        <ul><li>Reason: ----- </li></ul>
+                        <ul><li>Reason: because you are comparing two cities' data</li></ul>
                     </ol>
                 </div>
             </div>
         </div>
+        <!--add the shapes-->
         <div id="decorartion">
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40">
@@ -152,6 +165,7 @@
             </svg>
         </div>
         <div>
+            <!--add list of resources-->
             <h3>Acknowledgements</h3>
             <ul>
                 <li><a href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a></li>
