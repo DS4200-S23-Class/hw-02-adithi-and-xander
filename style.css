@@ -25,6 +25,7 @@ th {
 .flex {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
 .col {
@@ -48,17 +49,13 @@ th {
     fill: darkolivegreen;
 }
 
-.circle-style:hover {
-    opacity: 100%;
-    fill: black;
-}
-
 .rect-style {
     fill:blue;
     border: 1px;
     border-color: blueviolet;
 }
 
-.rect-style:hover {
-    background-color: black;
-  }
+.circle-style:hover, .rect-style:hover {
+    opacity: 100%;
+    fill: black;
+}
