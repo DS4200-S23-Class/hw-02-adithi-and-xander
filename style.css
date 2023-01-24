@@ -13,14 +13,13 @@ h2 {
 
 table {
     width: 300px;
-    border: 2px;
-    border-color: darkgray;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    text-align: center;
 }
 
 th {
     background-color: lightblue;
-    border: 1px;
-    border-color: darkgray;
 }
 
 .flex {
