@@ -12,10 +12,11 @@ h2 {
 }
 
 table {
-    width: 300px;
+    width: 500px;
     border: 1px solid darkgray;
     border-collapse: collapse;
     text-align: center;
+    margin: auto;
 }
 
 th {
@@ -24,14 +25,12 @@ th {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
-  }
+}
 
 .col {
-    display: flex;
-    flex-direction: column;
-    flex: 2;
+    flex: 50%;
   }
 
 .list-item {
