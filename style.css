@@ -4,14 +4,17 @@ body {
     margin: 20px;
 }
 
+/*ensure h1 and h3 tags are center-aligned*/
 h1, h3 {
    text-align: center; 
 }
 
+/*ensure h2 tags are left-aligned*/
 h2 {
     text-align: left;
 }
 
+/*specify the table attributes*/
 table {
     width: 500px;
     border: 1px solid darkgray;
@@ -20,10 +23,12 @@ table {
     margin: auto;
 }
 
+/*top row of table should be blue*/
 th {
     background-color: lightblue;
 }
 
+/*flex box attributes*/
 .flex {
     display: flex;
     justify-content: space-evenly;
