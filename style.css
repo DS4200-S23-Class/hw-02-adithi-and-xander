@@ -43,6 +43,7 @@ img {
     max-height: 100%;
 }
 
+/*change the font color of the task abstraction section for high, med, low, and target*/
 .list-item {
     text-align: left;
     color: darkgreen;
